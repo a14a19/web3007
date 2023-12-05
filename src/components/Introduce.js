@@ -6,7 +6,7 @@ const Introduce = () => {
       <div className="container text-center" style={{ marginTop: '100px' }}>
 
       <h1 style={{ fontWeight: '500', fontSize: '120px',marginTop: '20px' }}>
-      GET TO KNOW<span className="decode" > DECODE</span>
+      GET TO KNOW<span className="decode" > 3007</span>
       {/* style={{ position: 'relative', right: '350px' }} */}
 </h1>
 <p  style={{ marginTop: '60px', fontSize:'30px',fontWeight:"bold" }}>
@@ -34,7 +34,7 @@ Great working relationships are key to doing brilliant work together. Find out m
               style={{ width: '600px', height: '700px', marginLeft: '40px' }}  // Increased width
             />
              <div style={{ textAlign: 'center' }}>
-              <h1>The DECODErs</h1>
+              <h1>The 3007ers</h1>
               <h3>A team of more than 80 ambitious individuals fired up by shared values, vision, and mission.</h3>
               <a href="#meet-the-team"  className="font-weight-bold" style={{ color: 'black', fontSize: '35px' }}>Meet the team →</a>
             </div>

@@ -11,7 +11,7 @@
   font-weight: 700;
 }
 .follow-us-icon-container {
-  background-color: #faf7e8;
+  background-color: #7547e016;
   width: 80px;
   height: 80px;
   border-radius: 40px;
@@ -21,8 +21,9 @@
   padding-right: 16px;
   padding-left: 22px;
 }
+
 .icon {
-  color: #d0b200;
+  color: #7447e0;
   font-size: 35px;
 }
 

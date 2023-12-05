@@ -3,13 +3,13 @@ import { BsArrowRight } from "react-icons/bs";
 
 function HeroBanner() {
     return (
-        <aside className='mt-5 container-fluid'>
+        <aside className='mt-5 container-fluid p-5'>
             <h1 className="heroBannerHeader">
-                We're 3007
+                We're <span className='decode'>3007</span>
             </h1>
             <div className='w-full d-flex justify-content-end align-items-end flex-column mb-5'>
                 <h2 className='w-75 heroBannerSubHeader customWidth'>
-                    Your strategic partner in creating exceptional software products.
+                    Innovate<span className='decode'>.</span> Transform<span className='decode'>.</span> Thrive<span className='decode'>.</span>
                 </h2>
                 <div className='w-75 d-flex mt-4 customWidth flex-wrap'>
                     <button className='text-nowrap heroBannerSubHeader border-0 bg-white'>
@@ -37,7 +37,7 @@ function HeroBanner() {
                 </p>
                 <ul className='d-flex justify-content-between align-items-center flex-wrap'>
                     <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='w-full'/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='w-full' />
                     </li>
                     <li className='trustedCompanyImg'>
                         <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" className='w-full' />

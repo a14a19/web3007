@@ -9,7 +9,7 @@ function OurWork() {
             </h2>
             <div className='w-full'>
                 <p className='trustedCompanyHeader w-50 customWidth'>
-                    We’ve loved working with many fantastic companies, and are really proud of what we’ve achieved together.
+                    3007 is a strategic design and technology firm dedicated to accelerating digital transformation and crafting exceptional experiences.
                 </p>
                 <button className='text-nowrap border-0 ourWorkMain trustedCompanyHeader'>Explore our projects <BsArrowRight /></button>
             </div>

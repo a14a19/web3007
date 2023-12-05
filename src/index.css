@@ -97,6 +97,10 @@ li {
   font-size: 3.25rem;
 }
 
+.decode {
+  color: #7447e0;
+}
+
 @media(max-width: 1024px){
   .customWidth {
     width: 100% !important;
