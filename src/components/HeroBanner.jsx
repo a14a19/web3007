@@ -12,7 +12,7 @@ function HeroBanner() {
                     Your strategic partner in creating exceptional software products.
                 </h2>
                 <div className='w-75 d-flex mt-4 customWidth flex-wrap'>
-                    <button className='text-nowrap heroBannerSubHeader border-0 bg-white border-top border-secondary'>
+                    <button className='text-nowrap heroBannerSubHeader border-0 bg-white'>
                         Let's talk <BsArrowRight />
                     </button>
                     <div className='d-flex justify-content-center align-items-center ms-5'>

@@ -11,7 +11,7 @@ function App() {
       <Header />
       <HeroBanner />
       <OurWork />
-    <Fields>
+      <Fields />
       <Footer />
     </>
   );
