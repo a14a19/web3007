@@ -1,13 +1,96 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.heroBannerHeader {
+  font-size: 11.25rem;
+}
+
+.heroBannerSubHeader {
+  font-size: 4.5rem;
+}
+
+.heroBannerSpan {
+  font-size: 1.125rem;
+}
+
+.imgFigure {
+  width: 50px;
+  height: 50px;
+}
+
+.trustedCompanyHeader {
+  font-size: 1.5rem;
+}
+
+.trustedCompanyImg {
+  min-width: 100px;
+}
+
+.ourWorkMain {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.ourWorkHeader {
+  font-size: 7.5rem;
+}
+
+.dCircle {
+  background-color: #224afa;
+  height: 220px;
+  width: 220px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.positionDRelative {
+  position: relative;
+}
+
+.positionDAbsolute {
+  position: absolute;
+  top: 0%;
+  left: -110px;
+}
+
+.assecoImgContainer {
+  width: 678px;
+  height: 678px;
+}
+
+.assecoImg {
+  height: 678px;
+}
+
+.marginTopOurWork {
+  margin-top: 8rem;
+}
+
+.ourWorkSubHeading {
+  font-size: 2.25rem;
+}
+
+@media(max-width: 1024px){
+  .customWidth {
+    width: 100% !important;
+  }
 }
