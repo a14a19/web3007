@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
 import OurWork from "./components/OurWork";
 import Fields from "./components/Fields";
+import Introduce from "./components/Introduce";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <HeroBanner />
       <OurWork />
       <Fields />
+      <Introduce />
       <Footer />
     </>
   );
