@@ -75,12 +75,15 @@ function OurWork() {
                     </div>
                 </div>
             </div>
-            <div className='mt-5'>
+            <div className='marginTopOurWork marginBottomOurWork'>
                 <div className='ourWorkLastHeading'>
                     <p>
                         Learn how we combined our expertise to launch our own spin-off software startup —
                     </p>
-                    <button className='text-nowrap border-0 ourWorkMain trustedCompanyHeader p-0 ourWorkLastHeading'>View Shake <BsArrowRight /></button>
+                    <button className='text-nowrap border-0 ourWorkMain trustedCompanyHeader p-0 ourWorkLastHeading mb-5'>View Shake <BsArrowRight /></button>
+                </div>
+                <div className='container-fluid p-0 m-0'>
+                    <img src="https://decode.agency/wp-content/webp-express/webp-images/uploads/2021/08/ShakeHero.jpg.webp" alt="" className='card-img-top' />
                 </div>
             </div>
         </main>
