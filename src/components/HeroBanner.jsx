@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BsArrowRight } from "react-icons/bs";
+import Cursor from './Cursor';
 
 function HeroBanner() {
+
+    const [position, setPosition] = useState({ x: 0, y: 0 });
+
+    const mouseOver = (e) => {
+        setPosition({ x: e.clientX, y: e.clientY });
+    }
+
     return (
-        <aside className='mt-5 container-fluid p-5'>
+        <aside className='mt-5 container-fluid p-5 position-relative' onMouseMove={(e) => mouseOver(e)} style={{ cursor: "none", overflow: "hidden" }}>
+            <Cursor position={position} />
             <h1 className="heroBannerHeader">
-                We're <span className='decode'>3007</span>
+                We're <span className='decode number3007 position-relative'>3007</span>
             </h1>
             <div className='w-full d-flex justify-content-end align-items-end flex-column mb-5'>
                 <h2 className='w-75 heroBannerSubHeader customWidth'>
@@ -30,31 +39,6 @@ function HeroBanner() {
                         Caring like we’re in-house.
                     </p>
                 </div>
-            </div>
-            <div>
-                <p className='trustedCompanyHeader pt-5 mb-5'>
-                    Trusted by great companies
-                </p>
-                <ul className='d-flex justify-content-between align-items-center flex-wrap'>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='w-full' />
-                    </li>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" className='w-full' />
-                    </li>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" className='w-full' />
-                    </li>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" className='w-full' />
-                    </li>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" className='w-full' />
-                    </li>
-                    <li className='trustedCompanyImg'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" className='w-full' />
-                    </li>
-                </ul>
             </div>
         </aside>
     )

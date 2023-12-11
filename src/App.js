@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
@@ -14,9 +15,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Main />}/>
-        <Route exact path="/ourexpertise" element={<Expertise />}/>
-        <Route exact path="/ourteam" element={<Introduce />}/>
+        <Route exact path="/" element={<Main />} />
+        <Route exact path="/expertise" element={<Expertise />} />
+        <Route exact path="/team" element={<Introduce />} />
       </Routes>
       <Footer />
     </>

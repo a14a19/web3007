@@ -83,7 +83,10 @@ function OurWork() {
                     <button className='text-nowrap border-0 ourWorkMain trustedCompanyHeader p-0 ourWorkLastHeading mb-5'>View Shake <BsArrowRight /></button>
                 </div>
                 <div className='container-fluid p-0 m-0'>
-                    <img src="https://decode.agency/wp-content/webp-express/webp-images/uploads/2021/08/ShakeHero.jpg.webp" alt="" className='card-img-top' />
+                    <video className='card-img-top' autoPlay loop playsInline muted>
+                        <source src="https://www.fronttribe.com/videos/showreel.mp4" type='video/mp4'/>
+                    </video>
+                    {/* <img src="https://decode.agency/wp-content/webp-express/webp-images/uploads/2021/08/ShakeHero.jpg.webp" alt="" className='card-img-top' /> */}
                 </div>
             </div>
         </main>

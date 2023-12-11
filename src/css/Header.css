@@ -1,0 +1,32 @@
+.nav-header {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: whitesmoke;
+  padding: 10px 0;
+  box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.website-logo {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.website-logo img {
+  width: 100%;
+}
+
+

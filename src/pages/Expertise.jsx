@@ -5,8 +5,8 @@ import Services from '../components/services'
 function Expertise() {
   return (
     <>
-    <Fields />
-    <Services />
+      <Fields />
+      <Services />
     </>
   )
 }

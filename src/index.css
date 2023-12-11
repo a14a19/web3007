@@ -1,3 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: #7447e0;
+  color: white;
+}
+
+#trackerImg {
+  /* position: absolute; */
+  transform: translate(0%, 0%);
+  transition: all 0.01s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0ms;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -19,6 +44,10 @@ ul {
 li {
   list-style-type: none;
 }
+
+/* .navbar-nav .nav-link.active:hover, .navbar-nav .show>.nav-link:hover {
+  border-bottom: 1px solid black;
+} */
 
 .heroBannerHeader {
   font-size: 11.25rem;
@@ -42,7 +71,7 @@ li {
 }
 
 .trustedCompanyImg {
-  min-width: 100px;
+  min-width: 110px;
 }
 
 .ourWorkMain {
@@ -77,6 +106,50 @@ li {
   height: 678px;
 }
 
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding: 0%;
+}
+
+.nav-item {
+  padding: 8px;
+  margin: 0 10px;
+}
+
+.nav-link:hover, .nav-item:hover, .nav-link.active:hover {
+  color: #7447e0;
+}
+
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background: #7447e0;
+  transition: width 0.3s;
+}
+
+.nav-item:hover::after { 
+  width: 100%;
+}
+
+.animate {  
+  translate: none;
+  rotate: none;
+  scale: none;
+  /* transform: translate(0%, 0%) translate3d(0px, 0px, 0px); */
+  /* animation: name infinite timing-function 0s infinite infinite infinite; */
+}
+
 .assecoImg {
   height: 678px;
 }
@@ -101,7 +174,7 @@ li {
   color: #7447e0;
 }
 
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
   .customWidth {
     width: 100% !important;
   }
