@@ -32,7 +32,7 @@ const Footer = () => {
               </h4>
               <p className="footer-section-address">
                 <a href="mailto:hello@iuxd.agency">
-                  hello@iuxd.agency
+                  hi@3007.live
                 </a>
               </p>
               <h4>
