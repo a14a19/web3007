@@ -12,7 +12,7 @@
 #trackerImg {
   /* position: absolute; */
   transform: translate(0%, 0%);
-  transition: all 0.01s;
+  transition: all 0.01s, scale 1s;
   transition-timing-function: ease-in-out;
   transition-delay: 0ms;
   z-index: 1000;
@@ -70,9 +70,9 @@ li {
   font-size: 1.5rem;
 }
 
-.trustedCompanyImg {
+/* .trustedCompanyImg {
   min-width: 110px;
-}
+} */
 
 .ourWorkMain {
   background-color: #262626;
@@ -178,4 +178,36 @@ li {
   .customWidth {
     width: 100% !important;
   }
+}
+
+
+/* slider animation */
+
+.img-slider-container {
+  --d: 15s; /* duration */
+
+  display: grid;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000);
+}
+
+.img-slider-container > div {
+  grid-area: 1/1;
+  max-width: 280px;
+  margin: 0px 15px;
+  /* height: 200px; */
+  /* aspect-ratio: 1.5; */
+  object-fit: contain;
+  animation: r var(--d) linear infinite;
+}
+
+.img-slider-container > div:nth-child(2) {animation-delay: calc(1*var(--d)/-6)}
+.img-slider-container > div:nth-child(3) {animation-delay: calc(2*var(--d)/-6)}
+.img-slider-container > div:nth-child(4) {animation-delay: calc(3*var(--d)/-6)}
+.img-slider-container > div:nth-child(5) {animation-delay: calc(4*var(--d)/-6)}
+.img-slider-container > div:nth-child(6) {animation-delay: calc(5*var(--d)/-6)}
+
+@keyframes r {
+  75%    {transform: translate(-300%)}
+  75.01% {transform: translate( 100%)}
 }

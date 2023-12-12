@@ -5,14 +5,15 @@ import Cursor from './Cursor';
 function HeroBanner() {
 
     const [position, setPosition] = useState({ x: 0, y: 0 });
+    const [enter, setEnter] = useState(false)
 
     const mouseOver = (e) => {
         setPosition({ x: e.clientX, y: e.clientY });
     }
 
     return (
-        <aside className='mt-5 container-fluid p-5 position-relative' onMouseMove={(e) => mouseOver(e)} style={{ cursor: "none", overflow: "hidden" }}>
-            <Cursor position={position} />
+        <aside className='mt-2 container-fluid p-5 position-relative' onMouseMove={(e) => mouseOver(e)} onMouseEnter={() => setEnter(true)} onMouseLeave={() => setEnter(false)} style={{ cursor: "none", overflow: "hidden" }}>
+            <Cursor position={position} enter={enter} />
             <h1 className="heroBannerHeader">
                 We're <span className='decode number3007 position-relative'>3007</span>
             </h1>

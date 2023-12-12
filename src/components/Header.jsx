@@ -41,13 +41,13 @@ const Header = () => {
           <div className="d-flex">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item position-relative">
-                <NavLink className="nav-link" to="/">About Us</NavLink>
+                <NavLink className="nav-link p-0" to="/">About Us</NavLink>
               </li>
               <li className="nav-item position-relative">
-                <NavLink className="nav-link" to="/expertise">Our Expertise</NavLink>
+                <NavLink className="nav-link p-0" to="/expertise">Our Expertise</NavLink>
               </li>
               <li className="nav-item position-relative">
-                <NavLink className="nav-link" to="/team">Our Team</NavLink>
+                <NavLink className="nav-link p-0" to="/team">Our Team</NavLink>
               </li>
             </ul>
           </div>
