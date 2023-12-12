@@ -30,23 +30,61 @@ function Partners() {
                     <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" />
                 </div> */}
                 <div className='img-slider-container'>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='w-full h-full' />
+                    {/* <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" style={{width: "15%"}}/>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" className='w-full h-full' />
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" style={{width: "15%"}}/>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" className='w-full h-full' />
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" style={{width: "15%"}}/>
                     </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" className='w-full h-full' />
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" style={{width: "15%"}}/>
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" style={{width: "15%"}}/>
+                    </div> */}
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" className='col-2' />
                     </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" className='w-full h-full' />
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" className='col-2' />
                     </div>
-                    <div className='d-flex justify-content-center align-items-center'>
-                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" className='w-full h-full' />
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2021/09/ATT.svg" alt="" className='col-2' />
+                    </div>
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/RoyalCaribbean_logo.svg" alt="" className='col-2' />
+                    </div>
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2023/06/Asset-3Contentsquare-b.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2023/11/cafu-logo-1.svg" alt="" className='col-2' />
+                    </div>
+                    <div className='d-flex justify-content-evenly align-items-center w-full'>
+                        <img src="https://decode.agency/wp-content/uploads/2023/03/sofascore.svg" alt="" className='col-2' />
+                        <img src="https://decode.agency/wp-content/uploads/2021/07/Microsoft_logo.svg" alt="" className='col-2' />
                     </div>
                 </div>
             </div>
